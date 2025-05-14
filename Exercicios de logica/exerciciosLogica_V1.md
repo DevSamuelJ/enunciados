@@ -1,72 +1,166 @@
+````markdown
+# 💻 Lista de Exercícios de Lógica de Programação
 
-# Lista de Exercícios de Lógica de Programação
-
-Esta lista contém desafios organizados em níveis de dificuldade, voltados para o desenvolvimento da lógica de programação.  
-Todos os exercícios devem ser resolvidos utilizando **estrutura sequencial, condicionais, laços de repetição e funções**, conforme apropriado.
-
----
-
-## 🟢 Nível Iniciante
-
-### 1. Par ou Ímpar
-Solicite um número inteiro ao usuário e informe se ele é par ou ímpar.
+Uma coletânea simples e prática para você aprender os fundamentos da programação.  
+Todos os exercícios devem ser resolvidos com **estrutura sequencial, condicionais, laços de repetição e funções**.
 
 ---
 
-### 2. Contador de 1 a 100
-Imprima na tela todos os números de 1 até 100, um por linha.
+<p align="center">
+  <img src="https://img.shields.io/badge/Nível-Iniciante%20a%20Intermediário-green" />
+  <img src="https://img.shields.io/badge/Exercícios-10-blue" />
+  <img src="https://img.shields.io/badge/Colabore-Contribuições%20bem--vindas-orange" />
+</p>
 
 ---
 
-### 3. Tabuada
-Peça ao usuário um número inteiro e exiba a tabuada de 1 a 10 para esse número.
+## ✅ Estrutura da Lista
+
+> Os exercícios estão divididos em níveis para facilitar seu progresso.
 
 ---
 
-### 4. Soma de N Números
-Solicite ao usuário quantos números ele deseja somar. Em seguida, leia os valores e exiba o total da soma ao final.
+### 🟢 Nível Iniciante
+
+| Nº | Título | Descrição |
+|----|--------|-----------|
+| 1️⃣ | **Par ou Ímpar** | Informe se um número inteiro é par ou ímpar. |
+| 2️⃣ | **Contador de 1 a 100** | Imprima os números de 1 a 100, um por linha. |
+| 3️⃣ | **Tabuada** | Mostre a tabuada de 1 a 10 de um número informado. |
+| 4️⃣ | **Soma de N Números** | Some N números fornecidos pelo usuário. |
 
 ---
 
-## 🟡 Nível Intermediário
+### 🟡 Nível Intermediário
 
-### 5. Número Primo
-Peça um número inteiro ao usuário e informe se ele é um número primo.
-
----
-
-### 6. Inversor de Texto
-Solicite uma palavra ou frase ao usuário e exiba o conteúdo digitado na ordem inversa.
-
----
-
-### 7. Jogo da Adivinhação
-O sistema deve gerar um número aleatório entre 1 e 100. O usuário deverá tentar adivinhar qual foi o número gerado. O programa deve continuar até que o número correto seja descoberto.
+| Nº | Título | Descrição |
+|----|--------|-----------|
+| 5️⃣ | **Número Primo** | Verifique se um número inteiro é primo. |
+| 6️⃣ | **Inversor de Texto** | Inverter uma palavra ou frase digitada. |
+| 7️⃣ | **Jogo da Adivinhação** | Adivinhe um número aleatório gerado pelo sistema. |
+| 8️⃣ | **Sequência de Fibonacci** | Mostre os N primeiros termos da sequência de Fibonacci. |
 
 ---
 
-### 8. Sequência de Fibonacci
-Solicite um número inteiro `N` e exiba os `N` primeiros termos da sequência de Fibonacci.
+### 🔴 Nível Desafiador
+
+| Nº | Título | Descrição |
+|----|--------|-----------|
+| 9️⃣ | **Validador de CPF** | Verifique se um CPF possui exatamente 11 dígitos numéricos. |
+| 🔟 | **Jogo da Velha (Console)** | Implemente o jogo da velha jogável no terminal. |
 
 ---
 
-## 🔴 Nível Desafiador
+## 🛠️ Instruções Gerais
 
-### 9. Validador de CPF (Formato Simples)
-Peça um CPF no formato apenas com números (sem pontos ou traços) e verifique se ele possui exatamente 11 dígitos numéricos.
-
----
-
-### 10. Jogo da Velha (Console)
-Crie um jogo da velha jogável no terminal. O tabuleiro deve ser exibido a cada jogada e os jogadores devem alternar suas jogadas até que haja um vencedor ou empate.
+- 🧪 Resolva os exercícios no terminal ou editor de sua preferência.
+- ✨ Use nomes de variáveis **claros e descritivos**.
+- 🧼 Escreva um código **limpo, indentado e comentado**.
+- 🧠 Evite usar bibliotecas externas — resolva com sua lógica!
+- 🔁 Refaça os exercícios depois de um tempo para reforçar o aprendizado.
 
 ---
 
-## Instruções Gerais
+## 🌍 Como Contribuir com seus Códigos
 
-- Os exercícios devem ser resolvidos preferencialmente no terminal ou ambiente de desenvolvimento de sua escolha.
-- Escreva seu código de forma legível, com nomes de variáveis claros e organizados.
-- Evite utilizar bibliotecas externas que resolvam o problema para você.
-- Documente seu código quando necessário.
+Você pode enviar suas soluções diretamente para este repositório. Siga as etapas abaixo:
 
-**Desafie-se e aproveite o processo de aprendizado!**
+<details>
+<summary><strong>🚀 Passo a Passo para Contribuir</strong></summary>
+
+### 📌 Pré-requisitos
+
+- Ter uma conta no GitHub
+- Ter o Git instalado na sua máquina
+
+---
+
+### 1. Faça um Fork do Repositório
+
+Clique no botão **"Fork"** no canto superior direito da página do repositório original.  
+Isso criará uma cópia do projeto no seu GitHub.
+
+---
+
+### 2. Clone o seu Fork para sua máquina
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+````
+
+---
+
+### 3. Crie uma nova branch para suas soluções
+
+```bash
+git checkout -b minhas-solucoes
+```
+
+---
+
+### 4. Adicione seus arquivos com as soluções
+
+Você pode criar uma pasta chamada `meu-nome` ou `solucoes`, por exemplo:
+
+```bash
+mkdir solucoes-jose
+cd solucoes-jose
+# Adicione seus arquivos .py, .js, .java etc.
+```
+
+---
+
+### 5. Faça o commit das suas alterações
+
+```bash
+git add .
+git commit -m "Minhas soluções dos exercícios de lógica"
+```
+
+---
+
+### 6. Envie sua branch para o GitHub
+
+```bash
+git push origin minhas-solucoes
+```
+
+---
+
+### 7. Abra um Pull Request (PR)
+
+Volte ao repositório original (de onde você fez o fork) e clique em
+**"Compare & pull request"** para enviar suas soluções para revisão.
+
+> 💬 Na descrição do PR, diga quais exercícios você resolveu e qualquer observação relevante.
+
+---
+
+✅ Após a revisão, suas soluções poderão ser integradas ao repositório original!
+
+</details>
+
+---
+
+## 🎓 Sugestão Extra
+
+Se quiser se desafiar mais:
+
+* Transforme os exercícios em **programas interativos** com menu de escolha.
+* Crie uma **interface simples** com HTML ou Tkinter (Python).
+* Mantenha um repositório com todas suas soluções — é ótimo para mostrar em entrevistas!
+
+---
+
+## 🤝 Licença e Contribuição
+
+Este projeto está sob a licença MIT.
+Contribuições, melhorias e correções são muito bem-vindas!
+
+---
+
+> *“A prática leva à perfeição. Programe um pouco todos os dias!”*
+> 💬 Dúvidas ou sugestões? Abra uma [Issue](https://github.com/) ou mande um PR!
+
+```
