@@ -4,15 +4,6 @@
 Uma coletânea simples e prática para você aprender os fundamentos da programação.  
 Todos os exercícios devem ser resolvidos com **estrutura sequencial, condicionais, laços de repetição e funções**.
 
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Nível-Iniciante%20a%20Intermediário-green" />
-  <img src="https://img.shields.io/badge/Exercícios-10-blue" />
-  <img src="https://img.shields.io/badge/Colabore-Contribuições%20bem--vindas-orange" />
-</p>
-
----
 
 ## ✅ Estrutura da Lista
 
@@ -65,8 +56,7 @@ Todos os exercícios devem ser resolvidos com **estrutura sequencial, condiciona
 
 Você pode enviar suas soluções diretamente para este repositório. Siga as etapas abaixo:
 
-<details>
-<summary><strong>🚀 Passo a Passo para Contribuir</strong></summary>
+🚀 Passo a Passo para Contribuir
 
 ### 📌 Pré-requisitos
 
@@ -85,8 +75,8 @@ Isso criará uma cópia do projeto no seu GitHub.
 ### 2. Clone o seu Fork para sua máquina
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/DevSamuelJ/Atividades_para_Alunos.git
+cd Atividades_para_Alunos
 ````
 
 ---
@@ -161,6 +151,6 @@ Contribuições, melhorias e correções são muito bem-vindas!
 ---
 
 > *“A prática leva à perfeição. Programe um pouco todos os dias!”*
-> 💬 Dúvidas ou sugestões? Abra uma [Issue](https://github.com/) ou mande um PR!
+> 💬 Dúvidas ou sugestões? Abra uma [Issue](https://github.com/DevSamuelJ/Atividades_para_Alunos) ou mande um PR!
 
 
